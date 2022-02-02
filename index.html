@@ -1,243 +1,423 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- FONTAWSOME CDN -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> 
-    <!-- FONTAWSOME CDN -->
-    <title>class 19</title>
-    <link rel="stylesheet" href="./style.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>class 20</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <header class="">
-        <div class="container">
-            <div class="header_wrapper clear_fix">
-                <div class="logo ">
-                    <a href="#">
-                        <img src="https://i.ibb.co/44cX1zg/logo.png" alt="">
-                    </a>
-                </div>
-                <div class="menu">
-                    <nav>
-                        <ul class="text_right">
-                            <li><a href="" class="active">home</a></li>
-                            <li><a href="">about us</a></li>
-                            <li><a href="">pages</a>
-                                <ul>
-                                    <li><a href="#">blog full width</a></li>
-                                    <li><a href="#">blog left didebar</a></li>
-                                    <li><a href="#">blog right didebar</a></li>
-                                    <li><a href="#">blog right didebar</a></li>
-                                    <li><a href="#">blog right didebar</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="">blog <i class="fas fa-chevron-down"></i></a>
-                            
-                                <ul>
-                                    <li><a href="#">blog full width</a></li>
-                                    <li><a href="#">blog left didebar</a></li>
-                                    <li><a href="#">blog right didebar</a></li>
-                                    <li><a href="#">blog right didebar</a></li>
-                                    <li><a href="#">blog right didebar</a></li>
-                                </ul>                            
-                            
-                            </li>
-                            <li><a href="">contact layout <i class="fas fa-chevron-down"></i></a>                            
-                            <ul>
-                                <li><a href="#">contact layout 1</a></li>
-                                <li><a href="#">contact layout 2</a></li>
-                            </ul>                                              
-                            </li>
+  <!-- header start -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg_header">
+      <div class="container">
+        <!-- logo -->
+        <a class="navbar-brand" href="#">
+          <img src="https://i.ibb.co/jGzfzNc/logo.png" alt="" class=" w-25">
+        </a>
+        <!-- logo -->
 
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+        <!-- menu -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item text-capitalize">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-capitalize" href="#">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-capitalize" href="#">protfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-capitalize" href="#">my resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-capitalize" href="#">contact</a>
+            </li>
+            </li>
+          </ul>
+          <!-- mune -->
+
+
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-    </header>
+      </div>
+    </nav>
 
-    <!-- BANNER AREA START -->
-    <section class="banner_area_start">
-        <div class="container">
-            <div class="banner_area text_center">
-                <div class="banner_content">
-                    <h1>craft wooden</h1>
-                    <h3>house and cottages</h3>
-                    <div class="banner_btn">
-                        <a href="#">read more</a>
-                    </div>
-                </div>
+  </header>
+  <!-- header end -->
 
-            </div>
+  <!-- input section -->
+  <section>
+    <div class="container">
+      <div class="row py-4">
+        <div class="col-lg-7">
+          <form action="#">
+            <input type="text" id="disabledTextInput" class="form-control mb-3 bg_header" placeholder="Disabled input">
+            <input type="text" id="disabledTextInput" class="form-control bg_header" placeholder="Disabled input">
+          </form>
         </div>
-    </section>
-    <!-- BANNER AREA END   -->
+        <div class="col-lg-5">
 
-    <!-- our servicse area start -->
-    <section class="srevices_area_start">
-        <div class="container">
-            <div class="services_box_wrapper clear_fix">
-
-                <div class="services_box">
-                    <div class="services_icon">
-                        <img src="https://i.ibb.co/0nkbmhS/box-1.png" alt="">
-                    </div>
-                    <div class="services_heading">
-                        <h2>profession builders</h2>
-                    </div>
-                    <div class="services_about">
-                        <p>
-                            Aliquam quis nibh id neque rutrumop laoreet nulla.
-                        </p>
-                    </div>
-                    <div class="services_btn">
-                        <a href="#">read more</a>
-                    </div>
-                </div>
-
-                <div class="services_box">
-                    <div class="services_icon">
-                        <img src="https://i.ibb.co/kMCGYsV/box-2.png" alt="">
-                    </div>
-                    <div class="services_heading">
-                        <h2>profession builders</h2>
-                    </div>
-                    <div class="services_about">
-                        <p>
-                            Aliquam quis nibh id neque rutrumop laoreet nulla.
-                        </p>
-                    </div>
-                    <div class="services_btn">
-                        <a href="#">read more</a>
-                    </div>
-                </div>
-
-                <div class="services_box">
-                    <div class="services_icon">
-                        <img src="https://i.ibb.co/LS1BRcq/box-3.png" alt="">
-                    </div>
-                    <div class="services_heading">
-                        <h2>profession builders</h2>
-                    </div>
-                    <div class="services_about">
-                        <p>
-                            Aliquam quis nibh id neque rutrumop laoreet nulla.
-                        </p>
-                    </div>
-                    <div class="services_btn">
-                        <a href="#">read more</a>
-                    </div>
-                </div>
-
-                <div class="services_box">
-                    <div class="services_icon">
-                        <img src="https://i.ibb.co/j65Rspp/box-4.png" alt="">
-                    </div>
-                    <div class="services_heading">
-                        <h2>profession builders</h2>
-                    </div>
-                    <div class="services_about">
-                        <p>
-                            Aliquam quis nibh id neque rutrumop laoreet nulla.
-                        </p>
-                    </div>
-                    <div class="services_btn">
-                        <a href="#">read more</a>
-                    </div>
-                </div>
-
+          <div class="toast toast-demo fade show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <strong class="me-auto">Bootstrap</strong>
+              <small>11 mins ago</small>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
             </div>
-        </div>
-    </section>
-    <!-- our servicse area end -->
-    <!-- about me  -->
-    <section class="about_me_area_start">
-        <div class="container">
-            <div class="about_me_wrapper clear_fix">
-                <div class="about_left">
-
-
-                    <iframe width="100%" height="320px" src="https://www.youtube.com/embed/sbdm07GWZvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    
-                </div>
-                <div class="about_right">
-                    <div class="about_us_header">
-                        <h1>about wood <span>work</span></h1>
-                    </div>
-                    <div class="about_body">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium enim soluta similique qui ea ullam consequuntur quo facilis nulla, aperiam repudiandae sit
-
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repudiandae nostrum velit excepturi hic iure ipsum ratione ullam eveniet qui.
-                        </p>
-                    </div>
-                        <div class="address">
-                            <details>
-                                <summary>Epcot Center</summary>
-                                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-                              </details>
-                        </div>
-                    <div class="about_btn">
-                        <a href="#">read more</a>
-                    </div>
-                </div>
-
+            <div class="toast-body">
+              Hello, world! This is a toast message.
             </div>
+          </div>
         </div>
-    </section>
-    <!-- about me  -->
-    <!-- .CONTACT US AREA START -->
-    <section class="contact_area_start">
-        <div class="container">
-            <div class="contact_wrapper">
-                <div class="contact_form">
-                    <div class="contact_header">
-                        <h1>get a quick quote</h1>
-                        <p>
-                            Quisque semper Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aperiam eveniet illum, rerum minima accusantium magni doloremque, incidunt nam perferendis 
-                        </p>
-                    </div>
-                    <form action="#">
-                        <input type="text" name="name" id="name" placeholder="name">
-                        <input type="email" name="email" id="email" placeholder="email">
-                        <input type="number" name="phone" id="phone" placeholder="phone">
-                        <textarea name="" id="" cols="30" rows="10">
-                            message
-                        </textarea>
-                        <input type="submit" value="get started">
+      </div>
 
-                    </form>
-                </div>
+    </div>
+  </section>
+  <!-- input section -->
+
+  <section class="slider ">
+    <div class="">
+      <div class="row">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://i.ibb.co/RYnScJJ/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background-144627-24860.jpg"
+                class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
             </div>
-        </div>
-    </section>
-    <!-- .CONTACT US AREA END -->
-    <!-- footer area -->
-    <footer>
-        <div class="container">
-            <div class="footer_wrapper clear_fix">
-                <div class="footer_left">
-                    <p>
-                        <span>&copy;</span> wood works. All right reserved. designed by LFWF Acedamy
-                    </p>
-                </div>
-                <div class="footer_right">
-                    <ul>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    </ul>
-                </div>
+            <div class="carousel-item">
+              <img
+                src="https://i.ibb.co/RYnScJJ/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background-144627-24860.jpg"
+                class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
             </div>
+            <div class="carousel-item">
+              <img
+                src="https://i.ibb.co/RYnScJJ/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background-144627-24860.jpg"
+                class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-    </footer>
+      </div>
+    </div>
+  </section>
 
-    
+  <!--  -->
+  <section class=" progress_area py-4">
 
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Well done!</strong>
+            <p>you sucessfully read this importent alart message</p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row py-4">
+
+        <div class="col-lg-6">
+          <div class="progress mb-3">
+
+            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10"
+              aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+
+          <div class="progress mb-3">
+            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%"
+              aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+
+          <div class="progress mb-3">
+            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%"
+              aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+
+          <div class="progress mb-3">
+            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%"
+              aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+
+          <div class="progress mb-3">
+            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%"
+              aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+
+          </div>
+
+        </div>
+        <div class="col-lg-6">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button text-primary" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Collapaible Group item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque reiciendis ex, consequatur ad eaque
+                    sapiente.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Collapaible Group item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque reiciendis ex, consequatur ad eaque
+                    sapiente.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Collapaible Group item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque reiciendis ex, consequatur ad eaque
+                    sapiente.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Button trigger modal -->
+      <div class="row">
+        <div class="col-lg-4">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, non ipsam obcaecati nulla eveniet
+                    consectetur numquam assumenda eligendi dignissimos perferendis laudantium possimus rerum, quaerat
+                    facilis! Reiciendis ab excepturi reprehenderit cupiditate, nemo voluptates pariatur error nihil
+                    illum molestiae rem ipsa delectus similique, asperiores voluptatum repellendus corrupti est.
+                    Laboriosam quis repellat deserunt.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+
+          <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title=""
+            data-bs-original-title="Tooltip on top">
+            Tooltip on top
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right"
+            title="Tooltip on right">
+            Tooltip on right
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom"
+            title="Tooltip on bottom">
+            Tooltip on bottom
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left"
+            title="Tooltip on left">
+            Tooltip on left
+          </button>
+        </div>
+
+      </div>
+      <div class="row">
+
+
+
+        <!-- Custom css that makes this example work like it does: -->
+        <div class="col_lg-12">
+          <style type="text/css">
+            .scrollspy-example {
+              position: relative;
+              height: 200px;
+              margin-top: .5rem;
+              overflow: auto;
+            }
+          </style>
+          <nav id="navbar-scrollspy" class="navbar navbar-light bg-light px-3">
+            <a class="navbar-brand" href="#"> Project name <p>omnis vel molesting eveniet ipsom exp</p> </a>
+  
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#fat">Verse 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#mdo">Verse 2</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#one">one</a></li>
+            <li><a class="dropdown-item" href="#two">two</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#three">three</a></li>
+          </ul>
+         </li> -->
+            </ul>
+          </nav>
+          <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-offset="0" tabindex="0"
+            class="scrollspy-example">
+            <h4 id="fat">Verse 1</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem corrupti perspiciatis distinctio,
+              officia ipsam debitis animi hic? Iusto autem est accusantium quas recusandae consectetur eligendi at et
+              praesentium placeat dignissimos, quasi ipsum neque explicabo non, maxime nemo reprehenderit corporis
+              doloribus amet ab omnis dolorum, debitis ipsam? Nulla veritatis, fugiat cum possimus minima reiciendis eos
+              exercitationem numquam a officia sunt voluptatibus. Ducimus et porro non necessitatibus quae possimus
+              voluptate libero ratione, iure sint! Aspernatur autem saepe doloribus perferendis eos eaque quo ex.
+              Reiciendis neque quidem odio, beatae, similique eaque iusto voluptatem quae eveniet unde accusamus iure
+              pariatur consequatur distinctio qui error?</p>
+  
+            <h4 id="mdo">Verse 2</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam corporis esse fugiat alias, aut libero
+              assumenda saepe neque doloribus ducimus sit pariatur repudiandae sequi sed dolore culpa vero itaque! Iure
+              quos rerum odit, ducimus culpa quidem nisi voluptas possimus accusantium iusto, harum hic vel? Unde illum,
+              odit repellendus impedit magni dolores. Minus sunt laboriosam quisquam eligendi cumque aliquam quas pariatur
+              minima ut ea odio ipsum accusamus amet nostrum, consectetur ullam deleniti esse debitis repellat harum nemo
+              illum saepe. Molestias autem inventore libero nam aliquam molestiae, aliquid temporibus magnam quod iste ut
+              laudantium, adipisci illo enim mollitia cupiditate reiciendis veniam pariatur.</p>
+  
+          </div>
+        </div>
+      </div>
+      <div class="row py-5">
+        <!-- <div class="col-lg-4"></div> -->
+        <div class="col-lg-4 offset-4">
+          <div class="btn-group" role="group" aria-label="Basic outlined button group">
+            <button type="button" class="btn btn-outline-secondary "> Previous</button>
+            <button type="button" class="btn btn-outline-secondary">1</button>
+            <button type="button" class="btn btn-outline-secondary">2</button>
+            <button type="button" class="btn btn-outline-secondary">3</button>
+            <button type="button" class="btn btn-outline-secondary">Next</button>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary">Dropdown</button>
+            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class=" bg-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="text-center text-white py-4 fs-3">
+
+            <span>&copy;</span> All right reserved design by LFWF
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="./app.js"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
 </body>
+
 </html>
